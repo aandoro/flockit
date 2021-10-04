@@ -11,9 +11,13 @@ importar el archivo *pom.xml* al IDE que utiliza, en mi caso use eclipse.
 
 ## Correr proyecto
 
-Click derecho en *FlockitApplication.java* Run AS>Java Application, va a estar corriendo en [localhost:8080](http;//localhost:8080/)
+Click derecho en *FlockitApplication.java* Run AS > Java Application, va a estar corriendo en [localhost:8080](http;//localhost:8080/)
 
 El usuario valido para la prueba esta en el archivo *user.json*.
+
+## Test
+
+para correr el test ir a src/test/java, correr el archivo *FlockitApplicaionTests,java* haciendo click derecho Run As > JUnit Test
 
 ## Swagger
 

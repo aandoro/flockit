@@ -28,7 +28,7 @@ public class AuthServiceImple implements AuthService {
 			}
 			authResponse.setUser(userLogin);
 		} catch (Exception e) {
-			log.error(e.getStackTrace());
+			log.info(e.getStackTrace());
 			System.out.println(e.getMessage());
 		}
 		return authResponse;
